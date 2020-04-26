@@ -1,0 +1,28 @@
+[
+  {
+    "basics": {
+      "desacargaGit": "https://git-scm.com/",
+      "instalarGit": "Instalarlo y agregarlo al PATH. Si esta VSCode establecerlo como editor por defecto",
+      "basicSetting": {
+        "setUserName": "git config --global user.name 'User Name'",
+        "setEmail": "git config --global user.email 'emailaddress@correo.com'"
+      },
+      "iniciarUnRepositorio": "ejecutar git init en la carpeta del proyecto"
+    },
+    "essentialCommands": {
+      "git status": "muestra el estado de los archivos en la rama master(por defecto).",
+      "git add fileName.ext": "Agrega al staging para un commit al archivo indicado por el nombre",
+      "git add -A": "Agrega todos los archivos al stagging para commit",
+      "git commit -m 'message'": "Agrega los archivos a un estado de preparacion para subir rama master en servidor. Registra todos los archivos agregados",
+      "git log": "muestra info de los commits hechos",
+      "git remote -v": "muestra todas las referencias a repos remotos",
+      "git remote add origin https://github.com/Evaristo-Perez-Lopez/example-git.git": "Agrega un repo remoto llamado 'origin' al repo local",
+      "git push -u origin maaster": "sube los archivos despues del commit al repo remoto por primera vez. Pedirá auth",
+      "git push origin master": "subira los ficheros al repo remoto una vez no necesite auth"
+    },
+    "extra": {
+      "gitHub": "crear un cuenta para subir archivos a un server remoto",
+      "repositorio": "crear un repositorio nuevo para poder realizar push de los archivos en local al remoto"
+    }
+  }
+]
